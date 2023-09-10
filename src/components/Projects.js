@@ -60,8 +60,8 @@ export default function Projects() {
       A Collaboration of 4 Developers who want to rescue the sea. Built with React and uses Firebase for authentication.          
       </li>
       <div className="card-footer">
-        <button className="view-project-button">View Project</button>
-        <button className="view-code-button">View Code</button>
+        <button className="view-project-button"><a href="https://isa-tekinkaya.github.io/Capstone-Project/">View Project</a></button>
+        <button className="view-code-button"><a href="https://github.com/Isa-Tekinkaya/Capstone-Project">View Code</a></button>
       </div>
     </ul>
     
@@ -74,8 +74,8 @@ export default function Projects() {
       Responsive website built with Bootstrap including carousel and accordion.
       </li>
       <div className="card-footer">
-        <button className="view-project-button">View Project</button>
-        <button className="view-code-button">View Code</button>
+        <button className="view-project-button"><a href="https://isa-tekinkaya.github.io/Mountain-Of-Your-Choise.github.io/">View Project</a></button>
+        <button className="view-code-button"><a href="https://github.com/Isa-Tekinkaya/Mountain-Of-Your-Choise">View Code</a></button>
       </div>
     </ul>
     
@@ -88,8 +88,8 @@ export default function Projects() {
       A responsive web game which teaches the RGB color model. It has a hard and an easy mode.
       </li>
       <div className="card-footer">
-        <button className="view-project-button">View Project</button>
-        <button className="view-code-button">View Code</button>
+        <button className="view-project-button"><a href="https://isa-tekinkaya.github.io/CSS-Color-Game/">View Project</a></button>
+        <button className="view-code-button"><a href="https://github.com/Isa-Tekinkaya/CSS-Color-Game">View Code</a></button>
       </div>
     </ul>
     
@@ -102,8 +102,8 @@ export default function Projects() {
       A software which allows you to keep a record of the scores in a ping pong match.
       </li>
       <div className="card-footer">
-        <button className="view-project-button">View Project</button>
-        <button className="view-code-button">View Code</button>
+        <button className="view-project-button"><a href="https://isa-tekinkaya.github.io/ScoreKeeper/">View Project</a></button>
+        <button className="view-code-button"><a href="https://github.com/Isa-Tekinkaya/ScoreKeeper">View Code</a></button>
       </div>
     </ul>
     

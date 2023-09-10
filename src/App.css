@@ -211,6 +211,24 @@ img:hover{
   border: none;
   border-radius: 48px;
 }
+
+.view-project-button:hover{
+  background-color: #330b68d7;
+  color: #fff;
+  top: -10px;
+  transition: ease-in-out .35s;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
+}
+
+.view-project-button a{
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.view-project-button:hover > a {
+  color: white;
+}
+
 .view-code-button{
   width: 33%;
   padding:.6em;
@@ -223,13 +241,6 @@ img:hover{
   border-radius: 48px;
   border: none;
 }
-.view-project-button:hover{
-  background-color: #330b68d7;
-  color: #fff;
-  top: -10px;
-  transition: ease-in-out .35s;
-  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
-}
 
 .view-code-button:hover{
   background-color: #330b68d7;
@@ -238,7 +249,13 @@ img:hover{
   transition: ease-in-out .35s;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
 }
-
+.view-code-button:hover > a {
+  color: white;
+}
+.view-code-button a{
+  font-family: inherit;
+  text-decoration: none;
+}
 .about-section{
   background: rgba(73,155,234,1);
   background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
