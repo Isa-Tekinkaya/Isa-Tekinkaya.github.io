@@ -3,7 +3,7 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
-  font-family: Helvetica;
+  font-family: 'Courier New', Courier, monospace;
   position: relative;
   
 }
@@ -25,6 +25,7 @@
   list-style-type: none;
   cursor: pointer;
   font-size: 1.5rem;
+  font-weight: 600;
  }
 
  nav ul li:hover{
@@ -56,7 +57,7 @@
 h1 {
  display: inline-block;
  font-size: 3rem;
- transition: all .8s;
+ transition: all .4s;
  text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.822);
  
 }
@@ -67,7 +68,7 @@ h1 {
 }
 :hover .Dev {
   letter-spacing: 25px;
-  transform: scale(1.25);
+  transform: scale(1.2);
   -webkit-text-stroke: 0px #f4f6f7;
 }
 .Me{
@@ -82,9 +83,9 @@ h1 {
   
 }
 
-.Robot{
+.robot{
   margin: 0 auto;
-  top: -23rem;
+  top: -18rem;
   width:50rem;
   height: 28rem;
 }
@@ -100,6 +101,7 @@ h1 {
   padding-top: 2em;
   position: relative;
 	display: flex;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 5em;
 	align-items: center;
 	justify-content: center;
@@ -113,7 +115,7 @@ h1 {
   
 }
 .projects-title:hover{
-  scale:1.05;
+  transform: scale(1.2);
   text-shadow: none;
 }
 
@@ -141,10 +143,6 @@ h1 {
   object-fit: contain;
 
 }
-.projectCard:hover{
-  margin-top: 50px;
-  transition: all .2s;
-}
 
 .fade-in-section {
   opacity: 0;
@@ -171,10 +169,10 @@ h1 {
   width: 100%;
   padding: 1.5rem;
   height: 120px;
-  font-family: 'Handjet', cursive;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
   font-weight: 600;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
+  letter-spacing: .2px;
   margin: 1.5rem;
 }
 
@@ -196,45 +194,14 @@ img:hover{
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: .5em;
-
-}
-.view-project-button{
-  width: 33%;
-  padding:.6em;
-  font-size: 1.2em;
-  font-weight: 700;
-  font-family: 'Handjet', cursive;
-  background: none;
-  cursor: pointer;
-  color: #330b68d7;
-  background-color: #fefdff;
-  border: none;
-  border-radius: 48px;
-}
-
-.view-project-button:hover{
-  background-color: #330b68d7;
-  color: #fff;
-  top: -10px;
-  transition: ease-in-out .35s;
-  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
-}
-
-.view-project-button a{
-  font-family: inherit;
-  text-decoration: none;
-}
-
-.view-project-button:hover > a {
-  color: white;
+  
 }
 
 .view-code-button{
   width: 33%;
+  height: 20%;
   padding:.6em;
   font-size: 1.2em;
-  font-weight: 700;
-  font-family: 'Handjet', cursive;
   color: #330b68d7;
   cursor: pointer;
   background-color: #ffffff;
@@ -249,14 +216,23 @@ img:hover{
   transition: ease-in-out .35s;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
 }
-.view-code-button:hover > a {
+.view-code-button:hover > .view-code-button-link {
   color: white;
 }
-.view-code-button a{
-  font-family: inherit;
-  text-decoration: none;
+.view-code-button-link{
+  background: none;
+  border: none;
+  font-size: 1em;
+  letter-spacing: .06em;
+  font-weight: 700;
+  font-family: 'Handjet', cursive;
+  color: #330b68d7;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
 .about-section{
+  
   background: rgba(73,155,234,1);
   background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
@@ -266,15 +242,12 @@ img:hover{
   background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
   padding-top: 2em;
-  
-  
-  
   color:#fff;
 	transition: all .5s;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
 }
 .about-title{
-
+  font-family: 'Courier New', Courier, monospace;
   position: relative;
 	display: flex;
   justify-content: center;
@@ -286,11 +259,12 @@ img:hover{
 }
 
 .about-title:hover{
-  scale:1.05;
+  scale:1.2;
   text-shadow: none;
   transition: all .5s;
 }
 .about-text{
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.5rem;
   width: 50%;
   margin:0 auto;
@@ -502,8 +476,14 @@ form{
 }
 
 @media screen and (max-width: 1600px) {
+  
+  :hover .Dev {
+  
+    transform: scale(1.05);
+  
+  }
   .fly-animation{
-
+    
     left:-150px;
   }
 }
@@ -545,7 +525,7 @@ form{
     font-size: 1rem;
     -webkit-text-stroke: 0px #f4f6f7;
   }
-  .Robot{
+  .robot{
     width:42rem;
   }
 }
@@ -554,7 +534,7 @@ form{
     font-size: 1rem;
     -webkit-text-stroke: 0px #f4f6f7;
   }
-  .Robot{
+  .robot{
     top: -20rem;
     width:35rem;
   }
@@ -573,7 +553,7 @@ form{
     transform: scale(1);
   }
 
-  .Robot{
+  .robot{
     top: -16rem;
     width:100%;
   }  
@@ -644,7 +624,7 @@ form{
     letter-spacing: .5rem;
     transform: scale(.95);
   }
-  .Robot{
+  .robot{
     top: -10rem;
     width:100%;
     height: 400px;
@@ -706,7 +686,7 @@ form{
   nav ul li{
     font-size: .8rem;
   }
-  .Robot{
+  .robot{
     top: -7rem;
     width:100%;
     height:40vh;
