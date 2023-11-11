@@ -40,15 +40,15 @@ export default function About(){
     return (
         <div className="about-section">
         <h2 id="about-title" className="about-title" ref={aboutRef} >About Me</h2>
-        <p className={`about-text fade-in-section ${isVisibleAboutText ? 'is-visible' : ''}`} ref={aboutText}><em>Welcome to my webpage.</em> I am an enthusiastic and self-driven individual with a passion for learning and a strong background in coding. My journey into the world of programming began as a self-learner, where I devoted myself to mastering various programming languages and concepts.
+        <p className={`about-text fade-in-section ${isVisibleAboutText ? 'is-visible' : ''}`} ref={aboutText}><em> Welcome to my webpage.</em> I am an enthusiastic and self-driven individual with a passion for learning. My journey into the world of programming began as a self-learner, where I devoted myself to various programming languages and concepts.
         <br></br><br></br>
-        Through dedication and hard work, I earned the privilege of being selected for a prestigious coding bootcamp, where I further honed my skills and knowledge. 
-        Graduating from the bootcamp not only enriched my technical expertise but also instilled in me a deep sense of accomplishment and determination.
+        Through dedication and hard work, I earned the privilege of being selected for a prestigious coding boot camp, where I further honed my skills and knowledge. 
+        Graduating from the boot camp not only enriched my technical expertise but also instilled in me a deep sense of accomplishment and determination.
         <br></br>
         <br></br>
-        I take great pride in building projects from the ground up, crafting solutions that reflect my creativity and problem-solving abilities. Each project I embark on becomes a part of my identity, and I wholeheartedly embrace the responsibility it entails.
+        Each project I embark on becomes a part of my identity, and I wholeheartedly embrace the responsibility it entails.
         
-        <br></br><br></br>Thank you for visiting my webpage, and I hope you enjoy exploring the fruits of my endeavors. Feel free to reach out if you have any questions or if you're interested in collaborating on exciting projects. Together, let's create meaningful and impactful solutions for the world. 
+        <br></br><br></br>Thank you for visiting my webpage, and I hope you enjoy exploring my projects. Feel free to reach out if you have any questions or if you're interested in collaborating on exciting projects. Together, let's create meaningful and impactful solutions for the world. 
         </p>
         <div className="fly-animation">
         <Lottie animationData={Fly}/>

@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 {
 "homepage":"https://Isa-Tekinkaya.github.io",
+=======
+{"homepage":"https://isa-tekinkaya.github.io/",
+>>>>>>> 864a549d8ac507d856f8c4daa12b8194fbd260c2
 "name":"portfolio","version":"0.1.0",
 "private":false,
 "dependencies":
