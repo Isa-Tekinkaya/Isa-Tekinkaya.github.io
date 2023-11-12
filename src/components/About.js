@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import Lottie from "lottie-react";
-import Fly from "../animations/animation_fly.json"
+import CodingGuy from "../animations/about_me_animation.json"
 
 function useIsVisible(ref) {
     const [isVisible, setIsVisible] = useState(false);
@@ -50,8 +50,8 @@ export default function About(){
         
         <br></br><br></br>Thank you for visiting my webpage, and I hope you enjoy exploring my projects. Feel free to reach out if you have any questions or if you're interested in collaborating on exciting projects. Together, let's create meaningful and impactful solutions for the world. 
         </p>
-        <div className="fly-animation">
-        <Lottie animationData={Fly}/>
+        <div className="coding-guy">
+        <Lottie animationData={CodingGuy}/>
 
         </div>
       <h2 className="about-title">Skills</h2>
