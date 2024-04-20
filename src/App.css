@@ -8,7 +8,7 @@
   
 }
  nav{
-  background-color: #fff;
+  background-color: transparent;
   height: 100%;
   border-bottom-left-radius: 45px;
   border-bottom-right-radius: 45px;
@@ -21,7 +21,7 @@
  }
 
  nav ul li{
-  color: #330b68d7;
+  color: #fff;
   list-style-type: none;
   cursor: pointer;
   font-size: 1.5rem;
