@@ -177,7 +177,7 @@ img{
   filter: grayscale(100%);
 }
 img:hover{
-  transition: .3s ease-in-out;
+  transition: .23s ease-in-out;
   scale: 1.009;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
   filter: grayscale(0);
@@ -206,7 +206,7 @@ img:hover{
   background-color: #330b68d7;
   color: #fff;
   top: -10px;
-  transition: ease-in-out .35s;
+  transition: ease-in-out .23s;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.527);
 }
 .view-code-button:hover > .view-code-button-link {
