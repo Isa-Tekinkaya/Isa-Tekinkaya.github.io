@@ -74,13 +74,11 @@ h1 {
 .Me{
   opacity: 0;
   text-decoration: none;
-  
 }
 .Dev:hover .Me {
   display:block;
   letter-spacing: 25px;
   opacity: 1;
-  
 }
 
 .robot{
@@ -141,7 +139,6 @@ h1 {
   margin-top: 5rem;
   font-size: 1.2rem;
   object-fit: contain;
-
 }
 
 .fade-in-section {
@@ -228,7 +225,6 @@ img:hover{
   cursor: pointer;
 }
 .about-section{
-  
   background: rgba(73,155,234,1);
   background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
